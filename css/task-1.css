@@ -1,0 +1,76 @@
+#categories {
+  width: 440px;
+  height: 888px;
+  background-color: #ffffff;
+  padding: 24px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  overflow-y: auto;
+}
+
+/* ===== Блок категорії ===== */
+.item {
+  background-color: #f4f3ff;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Розміри кожного блоку ===== */
+.item:nth-child(1) {
+  width: 360px;
+  height: 184px;
+}
+
+.item:nth-child(2) {
+  width: 392px;
+  height: 216px;
+}
+
+.item:nth-child(3) {
+  width: 392px;
+  height: 312px;
+}
+
+/* ===== Заголовок h2 ===== */
+.item h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* ===== Список всередині блоку ===== */
+.item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ===== Пункти списку li ===== */
+.item ul li {
+  width: 360px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #cfd0e3;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
