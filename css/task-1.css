@@ -1,3 +1,4 @@
+/* ===== Головний контейнер ===== */
 #categories {
   width: 440px;
   height: 888px;
@@ -11,7 +12,7 @@
   overflow-y: auto;
 }
 
-/* ===== Блок категорії ===== */
+/* ===== Категорія (блок) ===== */
 .item {
   background-color: #f4f3ff;
   border-radius: 12px;
@@ -25,8 +26,8 @@
 
 /* ===== Розміри кожного блоку ===== */
 .item:nth-child(1) {
-  width: 360px;
-  height: 184px;
+  width: 392px;
+  height: 264px; /* ОНОВЛЕНО */
 }
 
 .item:nth-child(2) {
@@ -39,7 +40,7 @@
   height: 312px;
 }
 
-/* ===== Заголовок h2 ===== */
+/* ===== Заголовки h2 ===== */
 .item h2 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -50,7 +51,7 @@
   color: #2e2f42;
 }
 
-/* ===== Список всередині блоку ===== */
+/* ===== Внутрішній список ===== */
 .item ul {
   list-style: none;
   padding: 0;
